@@ -262,6 +262,7 @@ blockquote span {
 /* ========BUTTONS END========== */
 
 /* DEFAULT COMPONENT END */
+
 /* CUSTOM STYLE START */
 /* =======INNER INNER CONTENT======== */
 .inner {
@@ -269,6 +270,7 @@ blockquote span {
 	background: url('../img/inner-bg.jpg') no-repeat center/cover;
 	padding-top: 73px;
 	text-align: center;
+	position:relative;
 }
 .inner::before {
     content:'';
@@ -300,7 +302,7 @@ blockquote span {
 }
 .inner .go-to-block {
 	position: absolute;
-    bottom: 36px;
+	bottom: 36px;
     margin: auto;
     left: 0;
 	right: 0;
@@ -533,7 +535,7 @@ textarea.form-control{
 
 @media (max-width:479px){
 	.services-tab .nav-tabs > li {
-		width:50%;
+		width:100%;
 	}
 }
 /* =========SERVICES END=========== */
